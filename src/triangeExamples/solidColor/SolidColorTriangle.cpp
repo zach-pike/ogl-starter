@@ -37,9 +37,10 @@ SolidColorTriangle::~SolidColorTriangle() {
 // Draw the triangle and put it on the gpu
 void SolidColorTriangle::drawBuffers() {
     glm::vec2 coords[] = {
-        glm::vec2(-1, -1),
-        glm::vec2(0, 1),
         glm::vec2(1, -1),
+        glm::vec2(0, 1),
+        glm::vec2(-1, -1),
+        
     };
 
     glm::vec3 color[] = {
